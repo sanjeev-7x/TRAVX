@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(6, 39, 50);
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 10vh;
+}
+
+nav .logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+nav ul li {
+  padding: 5px 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+  color: rgb(17, 162, 207);
+}
+
+nav button {
+  padding: 12px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  background-color: white;
+  color: rgb(6, 39, 50);
+}
+
+nav button:hover {
+  background-color: rgb(17, 162, 207);
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  background-color: rgb(6, 39, 50);
+  justify-content: space-around;
+  align-items: center;
+  color: whitesmoke;
+  padding: 60px 50px;
+}
+
+.hero div {
+  width: 45%;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero button {
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: rgb(235, 150, 3);
+  color: #fff;
+}
+
+.hero img {
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 15px whitesmoke;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero img:hover {
+  transform: rotate(3deg);
+}
+
+/* Heading */
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: rgb(6, 39, 50);
+  margin: 30px 0;
+}
+
+/* Logo Section */
+.logo {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 30px 10%;
+  align-items: center;
+  border: 3px solid black;
+}
+
+/* Card Section */
+.three-card {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 10%;
+  border: 5px solid black;
+  padding: 40px;
+  box-shadow: 0 0 10px black;
+}
+
+.three-card .card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.three-card p {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.three-card h3 {
+  font-size: 40px;
+  margin: 10px;
+}
+
+.card {
+  border: 3px solid black;
+  width: 28%;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 0 10px black;
+}
+
+.card img {
+  border-radius: 10px;
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: rgb(6, 39, 50);
+  margin: 20px 0;
+}
+
+/* Image Resizing */
+#yank img,
+#chr img,
+#jul img,
+#rom img {
+  height: 50%;
+  width: 50%;
+}
